@@ -37,8 +37,7 @@ import java.util.Calendar;
 
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class MainActivity extends AppCompatActivity {
-    //int [] clock  = {07 ,  14, 16, 18, 20, 22}; // in military time and all mins are 30 sec
-    int [] clock  = {01,02,03,04,07 ,  14, 16, 17, 18, 19, 20, 21, 22, 23, 24};
+    int [] clock  = {07 ,  14, 16, 18, 20, 22}; // in military time and all mins are 30 sec
     int holder = 0;
     Handler mHandle = new Handler(); //handler allow us to loop the code over again but within a time period, like every 30 sec
     Handler bHandle = new Handler();
